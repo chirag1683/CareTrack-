@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTech Solutions | Transforming Healthcare Through Smart Digital Solutions</title>
+    <meta name="description" content="Modern healthcare management solutions designed to improve efficiency, patient experience, and hospital operations.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- EmailJS SDK: used to send the contact/demo form to your inbox without a backend -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="bg-glow">
+        <div class="glow-1"></div>
+        <div class="glow-2"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="logo">HealthTech</div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+            <li><a href="#solutions" class="nav-link" data-section="solutions">Solutions</a></li>
+            <li><a href="#industries" class="nav-link" data-section="industries">Industries</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            <li><a href="#" class="nav-link" data-action="open-modal">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="#" class="btn-login" data-action="login">Login</a>
+            <a href="#" class="btn-primary ripple" data-action="open-modal">Request Demo</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <span class="section-tag reveal">Next-Generation Healthcare</span>
+            <h1 class="reveal">Transforming Healthcare Through Smart Digital Solutions</h1>
+            <p class="reveal">Modern healthcare management solutions designed to improve efficiency, patient experience, and hospital operations.</p>
+            <div class="hero-btns reveal">
+                <a href="#" class="btn-primary ripple" data-action="open-modal">Request Demo</a>
+                <a href="#" class="btn-secondary ripple" data-action="open-modal">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <img src="hero-mockup.png" alt="Futuristic Healthcare Dashboard Mockup" class="hero-mockup">
+        </div>
+    </header>
+
+    <section class="highlights" id="solutions">
+        <span class="section-tag reveal">Company Highlights</span>
+        <h2 class="reveal">Built for the future of medicine</h2>
+        <div class="highlights-grid">
+            <div class="card reveal">
+                <i data-lucide="shield-check" class="card-icon"></i>
+                <h3>Trusted Healthcare Technology</h3>
+                <p>Industry-leading solutions trusted by top-tier medical institutions worldwide.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="cpu" class="card-icon"></i>
+                <h3>Secure & Scalable</h3>
+                <p>Enterprise-grade infrastructure designed to grow with your organization's needs.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="layers" class="card-icon"></i>
+                <h3>Enterprise Ready</h3>
+                <p>Flexible architecture that integrates seamlessly with existing hospital workflows.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="cloud" class="card-icon"></i>
+                <h3>Cloud Enabled</h3>
+                <p>Access your healthcare data securely from anywhere with highly available cloud systems.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="zap" class="card-icon"></i>
+                <h3>AI Powered</h3>
+                <p>Advanced predictive insights to improve patient outcomes and operational efficiency.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="bar-chart-3" class="card-icon"></i>
+                <h3>Real Time Analytics</h3>
+                <p>Comprehensive dashboards providing immediate visibility into hospital performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="industries" id="industries">
+        <span class="section-tag reveal">Industries We Serve</span>
+        <h2 class="reveal">Tailored solutions for every scale</h2>
+        <div class="highlights-grid">
+            <div class="card reveal">
+                <h3>Hospitals</h3>
+                <p>Full-scale management for multi-specialty healthcare centers.</p>
+            </div>
+            <div class="card reveal">
+                <h3>Clinics</h3>
+                <p>Streamlined operations for private practices and specialty clinics.</p>
+            </div>
+            <div class="card reveal">
+                <h3>Diagnostic Centers</h3>
+                <p>Efficient lab and imaging workflow management systems.</p>
+            </div>
+            <div class="card reveal">
+                <h3>Medical Colleges</h3>
+                <p>Integrated platforms for academic institutions and teaching hospitals.</p>
+            </div>
+            <div class="card reveal">
+                <h3>Healthcare Enterprises</h3>
+                <p>Robust infrastructure for large-scale healthcare networks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us" id="about">
+        <span class="section-tag reveal">Why Choose Us</span>
+        <h2 class="reveal">Enterprise-grade excellence</h2>
+        <div class="highlights-grid">
+            <div class="card reveal">
+                <i data-lucide="lock" class="card-icon"></i>
+                <h3>Enterprise Security</h3>
+                <p>Military-grade encryption and HIPAA compliance at the core.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="mouse-pointer-2" class="card-icon"></i>
+                <h3>Modern User Experience</h3>
+                <p>Intuitive interfaces designed to minimize training and maximize productivity.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="fast-forward" class="card-icon"></i>
+                <h3>Fast Deployment</h3>
+                <p>Rapid implementation cycles to get your team up and running in record time.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="headset" class="card-icon"></i>
+                <h3>Reliable Support</h3>
+                <p>Dedicated success managers and 24/7 technical assistance.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="expand" class="card-icon"></i>
+                <h3>Scalable Platform</h3>
+                <p>Engineered to handle millions of records without compromising speed.</p>
+            </div>
+            <div class="card reveal">
+                <i data-lucide="clock" class="card-icon"></i>
+                <h3>24×7 Assistance</h3>
+                <p>Round-the-clock monitoring and support to ensure zero downtime.</p>
+            </div>
+        </div>
+
+        <div class="stats-container reveal">
+            <div class="stat-item">
+                <h4 class="counter" data-target="100">0</h4>
+                <p>Healthcare Professionals</p>
+            </div>
+            <div class="stat-item">
+                <h4 class="counter" data-target="50">0</h4>
+                <p>Organizations</p>
+            </div>
+            <div class="stat-item">
+                <h4 class="counter" data-target="99.9">0</h4>
+                <p>Platform Availability (%)</p>
+            </div>
+            <div class="stat-item">
+                <h4>24×7</h4>
+                <p>Global Support</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-card reveal">
+            <h2>Looking for a smarter healthcare solution?</h2>
+            <p>Our team will walk you through the complete platform and help you understand how it can improve your healthcare operations.</p>
+            <div class="hero-btns" style="margin-top: 2.5rem;">
+                <a href="#" class="btn-primary ripple" data-action="open-modal">Book a Demo</a>
+                <a href="tel:+919351403674" class="btn-secondary ripple">Call Us</a>
+            </div>
+        </div>
+
+        <div class="caretrack-banner reveal">
+            <div class="banner-content">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Interested in CareTrack?</h3>
+                <p style="color: var(--text-muted);">For CareTrack, please connect with us directly. Call us or schedule a live demo to explore the complete platform and its capabilities.</p>
+            </div>
+            <div class="banner-btns">
+                <a href="tel:+919351403674" class="btn-secondary ripple">📞 Call Us</a>
+                <a href="#" class="btn-primary ripple" data-action="open-modal">📅 Schedule Demo</a>
+                <a href="mailto:your@email.com" class="btn-secondary ripple">📧 Contact Team</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="margin-bottom: 1.5rem;">HealthTech</div>
+                <p style="color: var(--text-muted);">Innovating the future of healthcare through intelligent digital ecosystems.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="#">Hospital EMS</a></li>
+                    <li><a href="#">Clinic Suite</a></li>
+                    <li><a href="#">Enterprise Lab</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HealthTech Solutions Inc. All rights reserved.</p>
+            <div style="display: flex; gap: 2rem;">
+                <a href="#" style="color: var(--text-muted); text-decoration: none;">LinkedIn</a>
+                <a href="#" style="color: var(--text-muted); text-decoration: none;">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ CONTACT / DEMO REQUEST MODAL ============ -->
+    <div class="modal-overlay" id="contactModalOverlay">
+        <div class="modal glass-modal" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+            <button class="modal-close" id="modalCloseBtn" aria-label="Close">
+                <i data-lucide="x"></i>
+            </button>
+
+            <h3 id="contactModalTitle">Request a CareTrack Demo</h3>
+            <p class="modal-subtitle">Tell us a little about your organization and we'll be in touch shortly.</p>
+
+            <form id="demoForm" novalidate>
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Dr. Jane Smith" required>
+                        <span class="field-error" id="err-fullName"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="hospitalName">Hospital Name *</label>
+                        <input type="text" id="hospitalName" name="hospitalName" placeholder="City General Hospital" required>
+                        <span class="field-error" id="err-hospitalName"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="designation">Designation</label>
+                        <input type="text" id="designation" name="designation" placeholder="Chief Medical Officer">
+                    </div>
+                    <div class="form-field">
+                        <label for="workEmail">Work Email *</label>
+                        <input type="email" id="workEmail" name="workEmail" placeholder="jane@hospital.com" required>
+                        <span class="field-error" id="err-workEmail"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                        <span class="field-error" id="err-phone"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="city">City *</label>
+                        <input type="text" id="city" name="city" placeholder="Jaipur" required>
+                        <span class="field-error" id="err-city"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="India">
+                    </div>
+                    <div class="form-field">
+                        <label for="hospitalType">Hospital Type</label>
+                        <select id="hospitalType" name="hospitalType">
+                            <option value="">Select type</option>
+                            <option value="Hospital">Hospital</option>
+                            <option value="Clinic">Clinic</option>
+                            <option value="Diagnostic Center">Diagnostic Center</option>
+                            <option value="Medical College">Medical College</option>
+                            <option value="Healthcare Enterprise">Healthcare Enterprise</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="beds">Number of Beds</label>
+                        <input type="number" id="beds" name="beds" placeholder="e.g. 250" min="0">
+                    </div>
+                    <div class="form-field">
+                        <label for="currentSoftware">Current Hospital Software</label>
+                        <input type="text" id="currentSoftware" name="currentSoftware" placeholder="e.g. none / legacy HMS">
+                    </div>
+                    <div class="form-field">
+                        <label for="demoDate">Preferred Demo Date</label>
+                        <input type="date" id="demoDate" name="demoDate">
+                    </div>
+                    <div class="form-field">
+                        <label for="demoTime">Preferred Demo Time</label>
+                        <input type="time" id="demoTime" name="demoTime">
+                    </div>
+                    <div class="form-field form-field-full">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Anything specific you'd like us to cover?"></textarea>
+                    </div>
+                </div>
+
+                <label class="form-checkbox">
+                    <input type="checkbox" id="agreeToContact" name="agreeToContact" required>
+                    <span>I agree to be contacted by the CareTrack Team. *</span>
+                </label>
+                <span class="field-error" id="err-agreeToContact"></span>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn-secondary ripple" id="modalCancelBtn">Cancel</button>
+                    <button type="submit" class="btn-primary ripple" id="submitDemoBtn" disabled>
+                        <span class="btn-label">Submit Demo Request</span>
+                        <span class="btn-spinner" hidden></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ============ SUCCESS MODAL ============ -->
+    <div class="modal-overlay" id="successModalOverlay">
+        <div class="modal glass-modal success-modal" role="dialog" aria-modal="true">
+            <div class="success-check">
+                <i data-lucide="check-circle-2"></i>
+            </div>
+            <h3>Thank You!</h3>
+            <p>Your demo request has been received successfully.<br>Our team will contact you shortly.</p>
+            <p class="reference-id">Reference ID: <strong id="referenceId">CT-2026-00000</strong></p>
+            <div class="modal-actions" style="justify-content: center;">
+                <button type="button" class="btn-secondary ripple" id="successCloseBtn">Close</button>
+                <button type="button" class="btn-primary ripple" id="bookAnotherBtn">Book Another Demo</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ TOAST CONTAINER ============ -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+    <a href="#" id="whatsappBtn" class="whatsapp-btn" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- ============ BACK TO TOP BUTTON ============ -->
+    <button id="backToTopBtn" class="back-to-top" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
